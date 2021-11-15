@@ -13,7 +13,7 @@ int main()
   while (1)
   {
 
-    sprintf(send_buf, "receive  num: %d\n", i);
+    sprintf(send_buf, "receive  num: %d\n", i); //this is a test
     udp.AddSendStr(send_buf);
     udp.SendBuf();
     if (udp.rec_flag == 1)
